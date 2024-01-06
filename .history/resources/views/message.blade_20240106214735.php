@@ -18,7 +18,7 @@
                       </div>
                       <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
                         <div class="relative mb-4">
-                          <label for="full-name" class="leading-7 text-sm text-gray-600">誰からもらいたい</label>
+                          <label for="full-name" class="leading-7 text-sm text-gray-600">誰からもらいたい？</label>
                           <select name="choice" class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                             <option hidden>選択してください</option>
                             <option value="first">木村 小左衛門</option>
@@ -29,13 +29,11 @@
                           <label for="email" class="leading-7 text-sm text-gray-600">いつまで</label>
                           <input type="date" id="date" name="date" class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                         </div>
-                        <button class="text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg font-bold">登録する</button>
+                        <button class="text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">有効にする</button>
                       </div>
                     </div>
                   </section>
-                  <div class="flex flex-row-reverse">
-                      <button class="text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded text-lg font-bold">登録済み設定一覧</button>
-                  </div>
+
               </div>
           </div>
       </div>

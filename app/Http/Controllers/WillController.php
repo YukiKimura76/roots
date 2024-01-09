@@ -18,4 +18,5 @@ class WillController extends Controller
         // PDFファイルとしてダウンロードさせる
         return $pdf->download('will.pdf');
     }
+    
 }

@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use App\Http\Controllers\MessageController;
 use App\Models\Book;
+use App\Http\Controllers\WillController;
 
 /*
 |--------------------------------------------------------------------------
@@ -52,5 +53,7 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+Route::post('/generate-will-pdf', [WillController::class, 'generateWillPDF']);
 
 require __DIR__.'/auth.php';

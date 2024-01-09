@@ -9,4 +9,5 @@
     <!-- 遺言書の内容を表示 -->
     {!! $willContent !!}
 </body>
+
 </html>
